@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "skills": [
+    {
+      "id": "tulipfarm/skills/code-review",
+      "skillId": "code-review",
+      "name": "code-review",
+      "description": "Review a diff, pull request, or file for correctness bugs, risky patterns, and maintainability issues, reporting prioritized findings with concrete fixes.",
+      "installs": 0,
+      "source": "tulipfarm/skills"
+    },
+    {
+      "id": "tulipfarm/skills/documentation",
+      "skillId": "documentation",
+      "name": "documentation",
+      "description": "Write or update technical documentation — READMEs, API references, architecture overviews, and runbooks — that stays accurate to the code and useful to its audience.",
+      "installs": 0,
+      "source": "tulipfarm/skills"
+    },
+    {
+      "id": "tulipfarm/skills/standup",
+      "skillId": "standup",
+      "name": "standup",
+      "description": "Compile a concise standup update — what shipped, what is in progress, and what is blocked — from recent commits, pull requests, and task activity.",
+      "installs": 0,
+      "source": "tulipfarm/skills"
+    }
+  ]
+}
