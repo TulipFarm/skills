@@ -1,5 +1,6 @@
 ---
 name: documentation
+version: 1.0.0
 description: Write or update technical documentation — READMEs, API references, architecture overviews, and runbooks — that stays accurate to the code and useful to its audience.
 ---
 
