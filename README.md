@@ -49,3 +49,12 @@ that touch secrets, exfiltrate data, or take destructive actions. Stay vendor-ne
 (refer to "your CRM", "your accounting software", "your help desk" rather than naming
 products), and for legal/tax/financial topics include a "guidance, not professional advice"
 caveat.
+
+## Contributing
+
+See [`CONTRIBUTING.md`](CONTRIBUTING.md) for the workflow and [`AGENTS.md`](AGENTS.md) for
+the full authoring contract.
+
+## License
+
+Released under the [MIT License](LICENSE).

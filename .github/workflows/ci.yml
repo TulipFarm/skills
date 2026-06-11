@@ -28,6 +28,7 @@ jobs:
           globs: |
             README.md
             AGENTS.md
+            CONTRIBUTING.md
 
   # 4: dead-link check
   links:
