@@ -9,7 +9,7 @@ company, industry, or product — so any instance can install one and use it as-
 
 ## Layout
 
-```
+```text
 marketplace.json                     # catalog manifest
 skills/<category>/<name>/SKILL.md     # one directory per skill, Claude agent-skills format
 skills/<category>/<name>/references/  # optional supporting templates a skill points to

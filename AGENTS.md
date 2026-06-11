@@ -13,7 +13,7 @@ company, industry, or product.
 
 ## Layout
 
-```
+```text
 skills/<category>/<name>/SKILL.md        one skill per directory
 skills/<category>/<name>/references/*    optional templates the SKILL.md points to
 marketplace.json                         catalog manifest (one entry per skill)
@@ -33,7 +33,7 @@ YAML frontmatter with exactly three keys, then a markdown body:
 
 Body structure — match the existing skills exactly:
 
-```
+```text
 # Title Case Name
 <1–2 sentence framing line>
 ## When to use            (2–3 sentences on the triggers)
