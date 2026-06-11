@@ -1,5 +1,6 @@
 ---
 name: standup
+version: 1.0.0
 description: Compile a concise standup update — what shipped, what is in progress, and what is blocked — from recent commits, pull requests, and task activity.
 ---
 

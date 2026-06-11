@@ -1,5 +1,6 @@
 ---
 name: code-review
+version: 1.0.0
 description: Review a diff, pull request, or file for correctness bugs, risky patterns, and maintainability issues, reporting prioritized findings with concrete fixes.
 ---
 

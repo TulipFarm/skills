@@ -2,28 +2,499 @@
   "version": 1,
   "skills": [
     {
-      "id": "tulipfarm/skills/code-review",
+      "id": "tulipfarm/skills/finance/bookkeeping",
+      "skillId": "bookkeeping",
+      "name": "bookkeeping",
+      "version": "1.0.0",
+      "description": "Record and categorize transactions using double-entry basics and reconcile accounts against bank and card statements, returning a correctly-categorized ledger plus an exceptions list of miscategorizations and duplicates.",
+      "source": "tulipfarm/skills",
+      "category": "finance"
+    },
+    {
+      "id": "tulipfarm/skills/finance/cash-flow",
+      "skillId": "cash-flow",
+      "name": "cash-flow",
+      "version": "1.0.0",
+      "description": "Track cash in versus out and build a short rolling cash-flow forecast, returning the current cash position, a forward forecast by period, and flagged risks like runway, shortfalls, and timing gaps.",
+      "source": "tulipfarm/skills",
+      "category": "finance"
+    },
+    {
+      "id": "tulipfarm/skills/finance/financial-statements",
+      "skillId": "financial-statements",
+      "name": "financial-statements",
+      "version": "1.0.0",
+      "description": "Produce and explain the three core financial statements — income statement, balance sheet, and cash-flow statement — from bookkeeping data, returning clean statements plus a plain-English read of what stands out.",
+      "source": "tulipfarm/skills",
+      "category": "finance"
+    },
+    {
+      "id": "tulipfarm/skills/finance/invoicing",
+      "skillId": "invoicing",
+      "name": "invoicing",
+      "version": "1.0.0",
+      "description": "Create clear invoices, track outstanding and aging receivables, and run a polite escalating follow-up sequence on overdue accounts, returning the invoice, an aging view, and the next follow-up message to send.",
+      "source": "tulipfarm/skills",
+      "category": "finance"
+    },
+    {
+      "id": "tulipfarm/skills/finance/monthly-close",
+      "skillId": "monthly-close",
+      "name": "monthly-close",
+      "version": "1.0.0",
+      "description": "Run a repeatable month-end and quarter-end close — reconcile, accrue, review for errors, lock the period, and summarize — returning a close checklist and a short month summary.",
+      "source": "tulipfarm/skills",
+      "category": "finance"
+    },
+    {
+      "id": "tulipfarm/skills/finance/tax-prep",
+      "skillId": "tax-prep",
+      "name": "tax-prep",
+      "version": "1.0.0",
+      "description": "Organize records ahead of tax filing — categorize deductible expenses, assemble the document checklist, and flag gaps — returning an organized tax packet and an open-items list, as preparation only and not tax advice.",
+      "source": "tulipfarm/skills",
+      "category": "finance"
+    },
+    {
+      "id": "tulipfarm/skills/sales-crm/crm-hygiene",
+      "skillId": "crm-hygiene",
+      "name": "crm-hygiene",
+      "version": "1.0.0",
+      "description": "Audit and clean customer, contact, and lead records — dedupe, standardize fields, fill gaps, and flag stale entries — producing a cleanup report plus the corrected records.",
+      "source": "tulipfarm/skills",
+      "category": "sales-crm"
+    },
+    {
+      "id": "tulipfarm/skills/sales-crm/lead-qualification",
+      "skillId": "lead-qualification",
+      "name": "lead-qualification",
+      "version": "1.0.0",
+      "description": "Score and prioritize inbound leads against a lightweight fit-plus-intent framework and recommend the next action for each, producing a ranked list with reasons and a next step.",
+      "source": "tulipfarm/skills",
+      "category": "sales-crm"
+    },
+    {
+      "id": "tulipfarm/skills/sales-crm/outreach",
+      "skillId": "outreach",
+      "name": "outreach",
+      "version": "1.0.0",
+      "description": "Draft personalized cold or warm outreach and a short multi-touch follow-up sequence — tight, specific, with one clear ask — producing a ready-to-send sequence of short messages.",
+      "source": "tulipfarm/skills",
+      "category": "sales-crm"
+    },
+    {
+      "id": "tulipfarm/skills/sales-crm/pipeline-review",
+      "skillId": "pipeline-review",
+      "name": "pipeline-review",
+      "version": "1.0.0",
+      "description": "Review the deal pipeline — flag stalled and at-risk deals, sanity-check stages and the forecast, and recommend where to focus — producing a pipeline-health summary with prioritized actions.",
+      "source": "tulipfarm/skills",
+      "category": "sales-crm"
+    },
+    {
+      "id": "tulipfarm/skills/sales-crm/prospect-research",
+      "skillId": "prospect-research",
+      "name": "prospect-research",
+      "version": "1.0.0",
+      "description": "Build a concise, factual one-page brief on a prospect or account before outreach or a call — who they are, likely needs and pains, and relevant hooks — research only, not the message.",
+      "source": "tulipfarm/skills",
+      "category": "sales-crm"
+    },
+    {
+      "id": "tulipfarm/skills/customer-support/customer-escalation",
+      "skillId": "customer-escalation",
+      "name": "customer-escalation",
+      "version": "1.0.0",
+      "description": "Handle an upset customer or a cross-team hand-off by de-escalating, packaging the issue with full context for whoever must act, and proposing a resolution path, producing an escalation summary plus a customer-facing reply.",
+      "source": "tulipfarm/skills",
+      "category": "customer-support"
+    },
+    {
+      "id": "tulipfarm/skills/customer-support/kb-article",
+      "skillId": "kb-article",
+      "name": "kb-article",
+      "version": "1.0.0",
+      "description": "Turn a resolved issue or a recurring question into a clear, reusable help-center article covering the problem, steps, and gotchas, producing a structured KB article ready to publish.",
+      "source": "tulipfarm/skills",
+      "category": "customer-support"
+    },
+    {
+      "id": "tulipfarm/skills/customer-support/ticket-triage",
+      "skillId": "ticket-triage",
+      "name": "ticket-triage",
+      "version": "1.0.0",
+      "description": "Categorize, prioritize, and route an incoming support ticket and draft an accurate first reply, producing a triaged ticket with category, priority, and owner plus a ready-to-send response.",
+      "source": "tulipfarm/skills",
+      "category": "customer-support"
+    },
+    {
+      "id": "tulipfarm/skills/marketing/brand-voice",
+      "skillId": "brand-voice",
+      "name": "brand-voice",
+      "version": "1.0.0",
+      "description": "Define and enforce a consistent brand voice — capturing tone attributes with do/don't examples, then reviewing drafts against them — producing a voice guide and/or a marked-up review.",
+      "source": "tulipfarm/skills",
+      "category": "marketing"
+    },
+    {
+      "id": "tulipfarm/skills/marketing/campaign-planning",
+      "skillId": "campaign-planning",
+      "name": "campaign-planning",
+      "version": "1.0.0",
+      "description": "Plan a marketing campaign end to end — goal and target metric, audience, channels, core message, content calendar, and measurement — producing a complete campaign plan.",
+      "source": "tulipfarm/skills",
+      "category": "marketing"
+    },
+    {
+      "id": "tulipfarm/skills/marketing/content-creation",
+      "skillId": "content-creation",
+      "name": "content-creation",
+      "version": "1.0.0",
+      "description": "Draft on-brand long-form content — blog posts, newsletters, landing-page sections — from a brief, structured for the audience and goal with a clear next step, producing a ready-to-edit draft.",
+      "source": "tulipfarm/skills",
+      "category": "marketing"
+    },
+    {
+      "id": "tulipfarm/skills/marketing/copywriting",
+      "skillId": "copywriting",
+      "name": "copywriting",
+      "version": "1.0.0",
+      "description": "Write high-converting short copy — headlines, CTAs, subject lines, ad and social hooks — using proven frameworks, delivering several labeled options plus the rationale behind each.",
+      "source": "tulipfarm/skills",
+      "category": "marketing"
+    },
+    {
+      "id": "tulipfarm/skills/marketing/seo",
+      "skillId": "seo",
+      "name": "seo",
+      "version": "1.0.0",
+      "description": "Optimize content for search — mapping keyword intent, structuring on-page elements and internal links, and auditing an existing page for quick wins — producing an SEO review with concrete edits.",
+      "source": "tulipfarm/skills",
+      "category": "marketing"
+    },
+    {
+      "id": "tulipfarm/skills/people/employee-onboarding",
+      "skillId": "employee-onboarding",
+      "name": "employee-onboarding",
+      "version": "1.0.0",
+      "description": "Generate a role-based onboarding plan for a new hire's first day, week, and month — access and accounts, key introductions, ramp tasks, and 30/60/90 milestones — as a ready-to-use checklist.",
+      "source": "tulipfarm/skills",
+      "category": "people"
+    },
+    {
+      "id": "tulipfarm/skills/people/hiring",
+      "skillId": "hiring",
+      "name": "hiring",
+      "version": "1.0.0",
+      "description": "Run a hire end to end — write an inclusive job description, define must-have versus nice-to-have criteria, screen candidates against them, and structure the pipeline — producing a JD, screening rubric, and stage plan.",
+      "source": "tulipfarm/skills",
+      "category": "people"
+    },
+    {
+      "id": "tulipfarm/skills/people/interview-prep",
+      "skillId": "interview-prep",
+      "name": "interview-prep",
+      "version": "1.0.0",
+      "description": "Build a structured interview kit for a role — the competencies to assess, a behavioral and role-specific question bank, and a scorecard — so every candidate is evaluated fairly and consistently.",
+      "source": "tulipfarm/skills",
+      "category": "people"
+    },
+    {
+      "id": "tulipfarm/skills/people/performance-review",
+      "skillId": "performance-review",
+      "name": "performance-review",
+      "version": "1.0.0",
+      "description": "Prepare a fair, evidence-based performance review — gather concrete examples, structure feedback into strengths, growth areas, and goals, and keep it specific and actionable — producing a review draft.",
+      "source": "tulipfarm/skills",
+      "category": "people"
+    },
+    {
+      "id": "tulipfarm/skills/product/product-brainstorming",
+      "skillId": "product-brainstorming",
+      "name": "product-brainstorming",
+      "version": "1.0.0",
+      "description": "Run a structured ideation session — frame the problem, diverge widely, cluster themes, then converge by scoring impact against effort — producing a shortlist of ideas with rationale.",
+      "source": "tulipfarm/skills",
+      "category": "product"
+    },
+    {
+      "id": "tulipfarm/skills/product/research-synthesis",
+      "skillId": "research-synthesis",
+      "name": "research-synthesis",
+      "version": "1.0.0",
+      "description": "Synthesize qualitative research — interviews, surveys, support tickets, reviews — into themes, insights, and recommended actions grounded in evidence, producing a synthesis with supporting quotes and counts.",
+      "source": "tulipfarm/skills",
+      "category": "product"
+    },
+    {
+      "id": "tulipfarm/skills/product/roadmap-planning",
+      "skillId": "roadmap-planning",
+      "name": "roadmap-planning",
+      "version": "1.0.0",
+      "description": "Build and maintain a roadmap — group initiatives into themes and now/next/later horizons, sequence by value and dependency, and keep it current as priorities shift — producing a roadmap view plus a near-term plan.",
+      "source": "tulipfarm/skills",
+      "category": "product"
+    },
+    {
+      "id": "tulipfarm/skills/product/writing-specifications",
+      "skillId": "writing-specifications",
+      "name": "writing-specifications",
+      "version": "1.0.0",
+      "description": "Turn an idea into a clear spec or PRD — problem and why-now, target users, goals and non-goals, scope, requirements, success metrics, risks, and open questions — producing a document the team can build from.",
+      "source": "tulipfarm/skills",
+      "category": "product"
+    },
+    {
+      "id": "tulipfarm/skills/data/analyzing-data",
+      "skillId": "analyzing-data",
+      "name": "analyzing-data",
+      "version": "1.0.0",
+      "description": "Explore a dataset to answer a specific question — profile it first, then surface trends, outliers, and segments — and report findings honestly with the numbers and caveats behind them.",
+      "source": "tulipfarm/skills",
+      "category": "data"
+    },
+    {
+      "id": "tulipfarm/skills/data/building-dashboards",
+      "skillId": "building-dashboards",
+      "name": "building-dashboards",
+      "version": "1.0.0",
+      "description": "Design a clear KPI dashboard — pick the few metrics that matter, lay them out by importance with the right comparisons, and cut vanity numbers and clutter — delivered as a layout spec.",
+      "source": "tulipfarm/skills",
+      "category": "data"
+    },
+    {
+      "id": "tulipfarm/skills/data/creating-visualizations",
+      "skillId": "creating-visualizations",
+      "name": "creating-visualizations",
+      "version": "1.0.0",
+      "description": "Choose the right chart for the question — trend, comparison, distribution, part-to-whole, or relationship — and present it cleanly with honest scales and clear labels, ready to build.",
+      "source": "tulipfarm/skills",
+      "category": "data"
+    },
+    {
+      "id": "tulipfarm/skills/data/statistical-analysis",
+      "skillId": "statistical-analysis",
+      "name": "statistical-analysis",
+      "version": "1.0.0",
+      "description": "Apply sound basic statistics without overreaching — pick the right summary or test, check assumptions, separate correlation from causation, and state significance and uncertainty plainly.",
+      "source": "tulipfarm/skills",
+      "category": "data"
+    },
+    {
+      "id": "tulipfarm/skills/data/writing-queries",
+      "skillId": "writing-queries",
+      "name": "writing-queries",
+      "version": "1.0.0",
+      "description": "Write correct, readable SQL to pull the data you need, then verify the result is actually right with row counts, spot-checks, and edge cases before trusting it.",
+      "source": "tulipfarm/skills",
+      "category": "data"
+    },
+    {
+      "id": "tulipfarm/skills/design/design-systems",
+      "skillId": "design-systems",
+      "name": "design-systems",
+      "version": "1.0.0",
+      "description": "Establish and maintain a small, practical design system — tokens, a core component set, and usage rules — and capture it as a compact system spec teams can actually follow.",
+      "source": "tulipfarm/skills",
+      "category": "design"
+    },
+    {
+      "id": "tulipfarm/skills/design/ux-copy",
+      "skillId": "ux-copy",
+      "name": "ux-copy",
+      "version": "1.0.0",
+      "description": "Write clear interface microcopy — buttons, labels, empty states, errors, tooltips, onboarding — that is concise, human, and tells the user what to do next, delivered with placement and context notes.",
+      "source": "tulipfarm/skills",
+      "category": "design"
+    },
+    {
+      "id": "tulipfarm/skills/operations/contract-review",
+      "skillId": "contract-review",
+      "name": "contract-review",
+      "version": "1.0.0",
+      "description": "Review a routine business contract or NDA for a non-lawyer by surfacing key terms, obligations, dates, and liabilities, flagging risky or unusual clauses, and listing questions to raise, producing a plain-English summary with flagged clauses.",
+      "source": "tulipfarm/skills",
+      "category": "operations"
+    },
+    {
+      "id": "tulipfarm/skills/operations/process-improvement",
+      "skillId": "process-improvement",
+      "name": "process-improvement",
+      "version": "1.0.0",
+      "description": "Document and improve a business process by mapping its current steps and handoffs, finding bottlenecks, rework, and waste, then proposing a leaner version with named owners and a current-vs-proposed comparison.",
+      "source": "tulipfarm/skills",
+      "category": "operations"
+    },
+    {
+      "id": "tulipfarm/skills/operations/risk-and-compliance",
+      "skillId": "risk-and-compliance",
+      "name": "risk-and-compliance",
+      "version": "1.0.0",
+      "description": "Identify and track operational risks and compliance obligations in a register — rating each by likelihood and impact, assigning owners, and defining mitigations and review dates — producing a maintainable risk and compliance register.",
+      "source": "tulipfarm/skills",
+      "category": "operations"
+    },
+    {
+      "id": "tulipfarm/skills/operations/status-report",
+      "skillId": "status-report",
+      "name": "status-report",
+      "version": "1.0.0",
+      "description": "Compile a crisp cross-functional status update covering progress since last time, what is on track versus at risk, decisions needed, and next steps, structured to be read in under a minute.",
+      "source": "tulipfarm/skills",
+      "category": "operations"
+    },
+    {
+      "id": "tulipfarm/skills/operations/vendor-management",
+      "skillId": "vendor-management",
+      "name": "vendor-management",
+      "version": "1.0.0",
+      "description": "Evaluate and manage vendors and suppliers by scoring options against weighted criteria, tracking contracts, renewals, and spend, and running a periodic vendor review, producing a vendor scorecard and review summary.",
+      "source": "tulipfarm/skills",
+      "category": "operations"
+    },
+    {
+      "id": "tulipfarm/skills/engineering/architecture",
+      "skillId": "architecture",
+      "name": "architecture",
+      "version": "1.0.0",
+      "description": "Design or review a software architecture by clarifying requirements and constraints, weighing options with explicit trade-offs, choosing one, and capturing the decision as an architecture sketch and decision record.",
+      "source": "tulipfarm/skills",
+      "category": "engineering"
+    },
+    {
+      "id": "tulipfarm/skills/engineering/code-review",
       "skillId": "code-review",
       "name": "code-review",
+      "version": "1.0.0",
       "description": "Review a diff, pull request, or file for correctness bugs, risky patterns, and maintainability issues, reporting prioritized findings with concrete fixes.",
-      "installs": 0,
-      "source": "tulipfarm/skills"
+      "source": "tulipfarm/skills",
+      "category": "engineering"
     },
     {
-      "id": "tulipfarm/skills/documentation",
+      "id": "tulipfarm/skills/engineering/debugging",
+      "skillId": "debugging",
+      "name": "debugging",
+      "version": "1.0.0",
+      "description": "Debug a problem methodically — reproduce it reliably, isolate the cause by bisection, test one hypothesis at a time, find and fix the root cause, then verify with a regression test, reporting the cause, fix, and verification.",
+      "source": "tulipfarm/skills",
+      "category": "engineering"
+    },
+    {
+      "id": "tulipfarm/skills/engineering/deployment",
+      "skillId": "deployment",
+      "name": "deployment",
+      "version": "1.0.0",
+      "description": "Ship a release safely with a pre-deploy checklist, a rollout strategy that includes a rollback plan, and post-deploy verification and monitoring, producing a deployment checklist.",
+      "source": "tulipfarm/skills",
+      "category": "engineering"
+    },
+    {
+      "id": "tulipfarm/skills/engineering/documentation",
       "skillId": "documentation",
       "name": "documentation",
+      "version": "1.0.0",
       "description": "Write or update technical documentation — READMEs, API references, architecture overviews, and runbooks — that stays accurate to the code and useful to its audience.",
-      "installs": 0,
-      "source": "tulipfarm/skills"
+      "source": "tulipfarm/skills",
+      "category": "engineering"
     },
     {
-      "id": "tulipfarm/skills/standup",
+      "id": "tulipfarm/skills/engineering/incident-response",
+      "skillId": "incident-response",
+      "name": "incident-response",
+      "version": "1.0.0",
+      "description": "Respond to a production incident calmly — assess severity, stabilize and mitigate before diagnosing, communicate clearly throughout, resolve, then run a blameless post-mortem with action items — producing an incident timeline and post-mortem.",
+      "source": "tulipfarm/skills",
+      "category": "engineering"
+    },
+    {
+      "id": "tulipfarm/skills/engineering/standup",
       "skillId": "standup",
       "name": "standup",
+      "version": "1.0.0",
       "description": "Compile a concise standup update — what shipped, what is in progress, and what is blocked — from recent commits, pull requests, and task activity.",
-      "installs": 0,
-      "source": "tulipfarm/skills"
+      "source": "tulipfarm/skills",
+      "category": "engineering"
+    },
+    {
+      "id": "tulipfarm/skills/engineering/tech-debt",
+      "skillId": "tech-debt",
+      "name": "tech-debt",
+      "version": "1.0.0",
+      "description": "Identify, assess, and prioritize technical debt by cataloging it, estimating ongoing cost and risk against effort to fix, and proposing a realistic paydown plan tied to upcoming work, producing a prioritized tech-debt list.",
+      "source": "tulipfarm/skills",
+      "category": "engineering"
+    },
+    {
+      "id": "tulipfarm/skills/engineering/testing-strategy",
+      "skillId": "testing-strategy",
+      "name": "testing-strategy",
+      "version": "1.0.0",
+      "description": "Decide what and how to test — the right mix across unit, integration, and end-to-end levels, what to cover first by risk and blast radius, what not to test, and what \"done\" means — producing a testing plan.",
+      "source": "tulipfarm/skills",
+      "category": "engineering"
+    },
+    {
+      "id": "tulipfarm/skills/productivity/daily-briefing",
+      "skillId": "daily-briefing",
+      "name": "daily-briefing",
+      "version": "1.0.0",
+      "description": "Produce a fast morning briefing across the whole business — what needs attention today, what is due or overdue, what changed since yesterday, and the top priorities — producing a scannable briefing.",
+      "source": "tulipfarm/skills",
+      "category": "productivity"
+    },
+    {
+      "id": "tulipfarm/skills/productivity/knowledge-management",
+      "skillId": "knowledge-management",
+      "name": "knowledge-management",
+      "version": "1.0.0",
+      "description": "Organize the knowledge base so information stays findable and current — structuring collections, setting what is worth capturing, keeping documents deduped and up to date, and retiring stale content — producing an organized knowledge base with capture and retention rules.",
+      "source": "tulipfarm/skills",
+      "category": "productivity"
+    },
+    {
+      "id": "tulipfarm/skills/productivity/meeting-notes",
+      "skillId": "meeting-notes",
+      "name": "meeting-notes",
+      "version": "1.0.0",
+      "description": "Turn raw meeting notes or a transcript into useful structured notes — a short summary, the decisions made, and action items with owners and due dates — producing notes the team can act on.",
+      "source": "tulipfarm/skills",
+      "category": "productivity"
+    },
+    {
+      "id": "tulipfarm/skills/productivity/memory-management",
+      "skillId": "memory-management",
+      "name": "memory-management",
+      "version": "1.0.0",
+      "description": "Decide what the assistant should durably remember versus look up each time — keeping a small set of stable, high-value personal and operational facts, pruning the rest, and redirecting document-sized information to the knowledge base — producing curated memory entries and a list of what to drop.",
+      "source": "tulipfarm/skills",
+      "category": "productivity"
+    },
+    {
+      "id": "tulipfarm/skills/productivity/search-strategies",
+      "skillId": "search-strategies",
+      "name": "search-strategies",
+      "version": "1.0.0",
+      "description": "Find information efficiently — designing good queries, iterating between broad and narrow, using synonyms and filters, evaluating source quality, and knowing when enough has been found — producing an effective search approach and the answer.",
+      "source": "tulipfarm/skills",
+      "category": "productivity"
+    },
+    {
+      "id": "tulipfarm/skills/productivity/task-management",
+      "skillId": "task-management",
+      "name": "task-management",
+      "version": "1.0.0",
+      "description": "Capture, organize, and prioritize tasks and projects so nothing slips — a trusted capture habit, clear next actions, priorities and due dates, reviewed regularly — producing an organized, prioritized task list.",
+      "source": "tulipfarm/skills",
+      "category": "productivity"
+    },
+    {
+      "id": "tulipfarm/skills/productivity/team-messaging",
+      "skillId": "team-messaging",
+      "name": "team-messaging",
+      "version": "1.0.0",
+      "description": "Write clear, well-structured team-chat messages and announcements — leading with the point or ask, formatting for skim, setting context and urgency, and making the next step explicit — producing a ready-to-send message.",
+      "source": "tulipfarm/skills",
+      "category": "productivity"
     }
   ]
 }
