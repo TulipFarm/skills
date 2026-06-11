@@ -495,6 +495,303 @@
       "description": "Write clear, well-structured team-chat messages and announcements — leading with the point or ask, formatting for skim, setting context and urgency, and making the next step explicit — producing a ready-to-send message.",
       "source": "tulipfarm/skills",
       "category": "productivity"
+    },
+    {
+      "id": "tulipfarm/skills/engineering/runbook",
+      "skillId": "runbook",
+      "name": "runbook",
+      "version": "1.0.0",
+      "description": "Write a clear operational runbook for a recurring procedure — covering purpose, prerequisites, step-by-step instructions, validation checks, and rollback steps — so any on-call engineer can execute it safely without prior context.",
+      "source": "tulipfarm/skills",
+      "category": "engineering"
+    },
+    {
+      "id": "tulipfarm/skills/data/validate-data",
+      "skillId": "validate-data",
+      "name": "validate-data",
+      "version": "1.0.0",
+      "description": "Validate a dataset for completeness, schema conformance, referential integrity, and outliers — then return a prioritized data quality report with row-level examples so stakeholders know what to trust and what to fix.",
+      "source": "tulipfarm/skills",
+      "category": "data"
+    },
+    {
+      "id": "tulipfarm/skills/data/variance-analysis",
+      "skillId": "variance-analysis",
+      "name": "variance-analysis",
+      "version": "1.0.0",
+      "description": "Compare actual results against expected or budgeted metrics, compute absolute and percentage variances, separate significant from noise, and identify root causes of material deviations — returning a variance report with explanations and recommended actions.",
+      "source": "tulipfarm/skills",
+      "category": "data"
+    },
+    {
+      "id": "tulipfarm/skills/data/forecast",
+      "skillId": "forecast",
+      "name": "forecast",
+      "version": "1.0.0",
+      "description": "Build a forward-looking forecast from historical data by modeling trend, seasonality, and growth assumptions — returning period-by-period projections with confidence ranges and clearly stated assumptions so stakeholders can stress-test the numbers.",
+      "source": "tulipfarm/skills",
+      "category": "data"
+    },
+    {
+      "id": "tulipfarm/skills/productivity/knowledge-synthesis",
+      "skillId": "knowledge-synthesis",
+      "name": "knowledge-synthesis",
+      "version": "1.0.0",
+      "description": "Synthesize information from multiple sources into a single structured summary — deduplicating overlapping claims, surfacing key takeaways, resolving contradictions, and citing sources — so the reader gets one authoritative view instead of n documents to reconcile.",
+      "source": "tulipfarm/skills",
+      "category": "productivity"
+    },
+    {
+      "id": "tulipfarm/skills/productivity/source-management",
+      "skillId": "source-management",
+      "name": "source-management",
+      "version": "1.0.0",
+      "description": "Organize, annotate, and maintain a collection of research sources — tracking relevance, credibility, last-reviewed date, and coverage gaps — so the collection stays useful, current, and free of duplication as a project evolves.",
+      "source": "tulipfarm/skills",
+      "category": "productivity"
+    },
+    {
+      "id": "tulipfarm/skills/productivity/policy-lookup",
+      "skillId": "policy-lookup",
+      "name": "policy-lookup",
+      "version": "1.0.0",
+      "description": "Search internal or external policy documents to find the governing rule for a specific situation — locating the exact source section, quoting the relevant language, and summarizing applicability and any exceptions — so the requester gets a precise answer, not a wall of policy text.",
+      "source": "tulipfarm/skills",
+      "category": "productivity"
+    },
+    {
+      "id": "tulipfarm/skills/product/sprint-planning",
+      "skillId": "sprint-planning",
+      "name": "sprint-planning",
+      "version": "1.0.0",
+      "description": "Facilitate sprint planning end to end — establish the sprint goal, calculate team capacity, prioritize and size backlog items against that capacity, assign work, surface dependencies and risks, and produce a sprint commitment document the team has agreed to.",
+      "source": "tulipfarm/skills",
+      "category": "product"
+    },
+    {
+      "id": "tulipfarm/skills/product/customer-research",
+      "skillId": "customer-research",
+      "name": "customer-research",
+      "version": "1.0.0",
+      "description": "Design and analyze customer research — interviews, surveys, and feedback data — to surface unmet needs, pain points, and jobs-to-be-done insights, returning a research brief or synthesis with evidence-grounded findings and recommended product directions.",
+      "source": "tulipfarm/skills",
+      "category": "product"
+    },
+    {
+      "id": "tulipfarm/skills/design/design-critique",
+      "skillId": "design-critique",
+      "name": "design-critique",
+      "version": "1.0.0",
+      "description": "Review a design for usability, visual hierarchy, consistency with the design system, and alignment with user goals — returning a structured critique with severity-rated findings and specific actionable recommendations, not subjective aesthetic preferences.",
+      "source": "tulipfarm/skills",
+      "category": "design"
+    },
+    {
+      "id": "tulipfarm/skills/design/design-handoff",
+      "skillId": "design-handoff",
+      "name": "design-handoff",
+      "version": "1.0.0",
+      "description": "Prepare a design for engineering handoff — annotating specs, documenting interactions and states, flagging edge cases and responsive behavior, and producing a handoff checklist — so developers can build accurately without repeated design questions.",
+      "source": "tulipfarm/skills",
+      "category": "design"
+    },
+    {
+      "id": "tulipfarm/skills/design/accessibility-review",
+      "skillId": "accessibility-review",
+      "name": "accessibility-review",
+      "version": "1.0.0",
+      "description": "Audit a UI for WCAG 2.1 AA compliance — checking color contrast, keyboard navigation, ARIA usage, focus management, and screen-reader text — and return a prioritized violation list with specific remediation steps and success criteria.",
+      "source": "tulipfarm/skills",
+      "category": "design"
+    },
+    {
+      "id": "tulipfarm/skills/sales-crm/email-sequence",
+      "skillId": "email-sequence",
+      "name": "email-sequence",
+      "version": "1.0.0",
+      "description": "Write a multi-touch outbound email sequence — initial outreach plus follow-ups — tailored to persona, pain point, and deal stage, with each email short, specific, and ending in one clear ask, ready to send or load into a sequencing tool.",
+      "source": "tulipfarm/skills",
+      "category": "sales-crm"
+    },
+    {
+      "id": "tulipfarm/skills/sales-crm/call-prep",
+      "skillId": "call-prep",
+      "name": "call-prep",
+      "version": "1.0.0",
+      "description": "Prepare a sales call brief covering account context, stakeholder map, open opportunities and deal history, a proposed agenda, anticipated objections with responses, and desired outcomes — so the rep walks in informed and walks out with a clear next step.",
+      "source": "tulipfarm/skills",
+      "category": "sales-crm"
+    },
+    {
+      "id": "tulipfarm/skills/sales-crm/call-summary",
+      "skillId": "call-summary",
+      "name": "call-summary",
+      "version": "1.0.0",
+      "description": "Summarize a sales call into what was discussed, decisions made, commitments from both sides, next steps with owners and due dates, and required CRM field updates — so the record is complete and the deal can be handed off without a debrief.",
+      "source": "tulipfarm/skills",
+      "category": "sales-crm"
+    },
+    {
+      "id": "tulipfarm/skills/sales-crm/competitive-intelligence",
+      "skillId": "competitive-intelligence",
+      "name": "competitive-intelligence",
+      "version": "1.0.0",
+      "description": "Research and synthesize the competitive landscape for a given company or product — covering positioning, feature differentiation, strengths, weaknesses, pricing signals, and win/loss patterns — returning a battlecard or competitive brief the sales team can act on.",
+      "source": "tulipfarm/skills",
+      "category": "sales-crm"
+    },
+    {
+      "id": "tulipfarm/skills/marketing/discover-brand",
+      "skillId": "discover-brand",
+      "name": "discover-brand",
+      "version": "1.0.0",
+      "description": "Audit a brand's existing content, messaging, and visual identity to extract implicit brand guidelines from real examples — surfacing the voice, tone, vocabulary patterns, and visual style that are already present, even if they have never been formally documented.",
+      "source": "tulipfarm/skills",
+      "category": "marketing"
+    },
+    {
+      "id": "tulipfarm/skills/marketing/guideline-generation",
+      "skillId": "guideline-generation",
+      "name": "guideline-generation",
+      "version": "1.0.0",
+      "description": "Generate a complete brand guideline document from source material — covering brand purpose, voice, tone, vocabulary rules, do/don't examples, and channel adaptations — producing a practical reference writers can use daily, not a design portfolio piece.",
+      "source": "tulipfarm/skills",
+      "category": "marketing"
+    },
+    {
+      "id": "tulipfarm/skills/marketing/create-asset",
+      "skillId": "create-asset",
+      "name": "create-asset",
+      "version": "1.0.0",
+      "description": "Plan and draft a specific marketing asset — ad copy, landing page, one-pager, social post, or email — aligned to a campaign goal, target audience, and brand voice, producing a complete, ready-to-review draft with format notes and copy rationale.",
+      "source": "tulipfarm/skills",
+      "category": "marketing"
+    },
+    {
+      "id": "tulipfarm/skills/operations/legal-risk-assessment",
+      "skillId": "legal-risk-assessment",
+      "name": "legal-risk-assessment",
+      "version": "1.0.0",
+      "description": "Identify and rate legal risks in a contract, proposal, or business decision — flagging liability exposure, missing protections, and problematic clauses — and produce a prioritized risk register with recommended mitigations, for use by non-lawyers before escalating to counsel.",
+      "source": "tulipfarm/skills",
+      "category": "operations"
+    },
+    {
+      "id": "tulipfarm/skills/operations/legal-response",
+      "skillId": "legal-response",
+      "name": "legal-response",
+      "version": "1.0.0",
+      "description": "Draft a response to a legal notice, cease-and-desist, or regulatory inquiry — acknowledging receipt, addressing each claim with a stated position, preserving rights, and proposing a resolution path — for review by legal counsel before sending.",
+      "source": "tulipfarm/skills",
+      "category": "operations"
+    },
+    {
+      "id": "tulipfarm/skills/operations/compliance-tracking",
+      "skillId": "compliance-tracking",
+      "name": "compliance-tracking",
+      "version": "1.0.0",
+      "description": "Track compliance obligations across regulatory, contractual, and certification requirements — recording due dates, owners, evidence requirements, and current status — and produce a compliance register that surfaces overdue and at-risk items before they become violations.",
+      "source": "tulipfarm/skills",
+      "category": "operations"
+    },
+    {
+      "id": "tulipfarm/skills/operations/audit-support",
+      "skillId": "audit-support",
+      "name": "audit-support",
+      "version": "1.0.0",
+      "description": "Prepare for an audit by mapping controls to requirements, gathering evidence, identifying gaps, and producing an audit-ready evidence package — so auditors receive complete, well-organized submissions and no surprises arise during fieldwork.",
+      "source": "tulipfarm/skills",
+      "category": "operations"
+    },
+    {
+      "id": "tulipfarm/skills/finance/journal-entry",
+      "skillId": "journal-entry",
+      "name": "journal-entry",
+      "version": "1.0.0",
+      "description": "Prepare a journal entry for a business transaction — identifying the accounts affected, applying debit and credit rules per GAAP double-entry bookkeeping, stating the amounts, and specifying supporting documentation — so the entry is correct, auditable, and ready to post.",
+      "source": "tulipfarm/skills",
+      "category": "finance"
+    },
+    {
+      "id": "tulipfarm/skills/finance/reconciliation",
+      "skillId": "reconciliation",
+      "name": "reconciliation",
+      "version": "1.0.0",
+      "description": "Reconcile two sets of records — bank vs. general ledger, AR vs. subledger, intercompany accounts — by matching items, identifying and explaining discrepancies, and producing a reconciliation statement that supports the sign-off balance.",
+      "source": "tulipfarm/skills",
+      "category": "finance"
+    },
+    {
+      "id": "tulipfarm/skills/finance/metrics-review",
+      "skillId": "metrics-review",
+      "name": "metrics-review",
+      "version": "1.0.0",
+      "description": "Review a set of business or financial metrics — computing period-over-period changes, flagging anomalies against trend and plan, and summarizing key trends and concerns — so stakeholders get an interpreted view of what the numbers mean, not just the numbers.",
+      "source": "tulipfarm/skills",
+      "category": "finance"
+    },
+    {
+      "id": "tulipfarm/skills/operations/stakeholder-update",
+      "skillId": "stakeholder-update",
+      "name": "stakeholder-update",
+      "version": "1.0.0",
+      "description": "Draft a stakeholder update covering progress against goals, decisions made, blockers, risks, and specific asks — calibrated to the audience's level of detail and the update cadence — producing a clear, readable communication that earns trust rather than just filling a slot.",
+      "source": "tulipfarm/skills",
+      "category": "operations"
+    },
+    {
+      "id": "tulipfarm/skills/productivity/weekly-briefing",
+      "skillId": "weekly-briefing",
+      "name": "weekly-briefing",
+      "version": "1.0.0",
+      "description": "Generate a weekly prep brief from calendar events, open tasks, and pending items — surfacing the week's priorities, decisions that need to be made, upcoming deadlines, and background context — so the first Monday morning read sets the week up rather than re-establishing it.",
+      "source": "tulipfarm/skills",
+      "category": "productivity"
+    },
+    {
+      "id": "tulipfarm/skills/productivity/slack-search",
+      "skillId": "slack-search",
+      "name": "slack-search",
+      "version": "1.0.0",
+      "description": "Formulate effective Slack search queries to find relevant conversations, past decisions, and context — iterating across search strategies, synthesizing results from key threads, and surfacing the answer with links to the source messages so the reader can verify and explore further.",
+      "source": "tulipfarm/skills",
+      "category": "productivity"
+    },
+    {
+      "id": "tulipfarm/skills/people/org-planning",
+      "skillId": "org-planning",
+      "name": "org-planning",
+      "version": "1.0.0",
+      "description": "Model organizational structure changes — headcount planning, span-of-control analysis, reporting line proposals, and role transition sequencing — producing a current-state vs. proposed-state comparison with rationale and an implementation sequence.",
+      "source": "tulipfarm/skills",
+      "category": "people"
+    },
+    {
+      "id": "tulipfarm/skills/people/capacity-plan",
+      "skillId": "capacity-plan",
+      "name": "capacity-plan",
+      "version": "1.0.0",
+      "description": "Build a team capacity plan — mapping available headcount and working time to planned initiatives, surfacing over- and under-allocation by role and period, and proposing prioritization or staffing adjustments — so leadership can make informed trade-off decisions before commitments are made.",
+      "source": "tulipfarm/skills",
+      "category": "people"
+    },
+    {
+      "id": "tulipfarm/skills/operations/process-doc",
+      "skillId": "process-doc",
+      "name": "process-doc",
+      "version": "1.0.0",
+      "description": "Document a business process — defining inputs, outputs, steps, owners, decision points, exceptions, and SLAs — in a format suitable for onboarding, SOPs, and process audits, so the process can be followed and improved without the original owner present.",
+      "source": "tulipfarm/skills",
+      "category": "operations"
+    },
+    {
+      "id": "tulipfarm/skills/operations/change-request",
+      "skillId": "change-request",
+      "name": "change-request",
+      "version": "1.0.0",
+      "description": "Draft a change request for an operational, IT, or process change — describing the change, its rationale, impact assessment, rollback plan, and approval requirements — so the change can be reviewed, approved, and executed safely without information gaps.",
+      "source": "tulipfarm/skills",
+      "category": "operations"
     }
   ]
 }
