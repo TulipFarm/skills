@@ -792,6 +792,123 @@
       "description": "Draft a change request for an operational, IT, or process change — describing the change, its rationale, impact assessment, rollback plan, and approval requirements — so the change can be reviewed, approved, and executed safely without information gaps.",
       "source": "tulipfarm/skills",
       "category": "operations"
+    },
+    {
+      "id": "tulipfarm/skills/data/record-import-and-cleanup",
+      "skillId": "record-import-and-cleanup",
+      "name": "record-import-and-cleanup",
+      "version": "1.0.0",
+      "description": "Map and clean external tabular or unstructured data into target records, producing a validated import-ready set, preserved source data, and a documented exception queue.",
+      "source": "tulipfarm/skills",
+      "category": "data"
+    },
+    {
+      "id": "tulipfarm/skills/engineering/pull-request-management",
+      "skillId": "pull-request-management",
+      "name": "pull-request-management",
+      "version": "1.0.0",
+      "description": "Assess a pull request lifecycle and produce a merge-readiness recommendation covering intent, review state, checks, dependencies, follow-up, and delivery risks.",
+      "source": "tulipfarm/skills",
+      "category": "engineering"
+    },
+    {
+      "id": "tulipfarm/skills/engineering/repository-issue-triage",
+      "skillId": "repository-issue-triage",
+      "name": "repository-issue-triage",
+      "version": "1.0.0",
+      "description": "Triage repository issues and produce an evidence-based intake decision with duplicate candidates, severity, labels, ownership, missing information, and recommended disposition.",
+      "source": "tulipfarm/skills",
+      "category": "engineering"
+    },
+    {
+      "id": "tulipfarm/skills/operations/routine-design",
+      "skillId": "routine-design",
+      "name": "routine-design",
+      "version": "1.0.0",
+      "description": "Design a repeated operational routine and produce a safe schedule, event, or manual execution specification with approvals, retry behavior, idempotency, and stop conditions.",
+      "source": "tulipfarm/skills",
+      "category": "operations"
+    },
+    {
+      "id": "tulipfarm/skills/product/customer-feedback-analysis",
+      "skillId": "customer-feedback-analysis",
+      "name": "customer-feedback-analysis",
+      "version": "1.0.0",
+      "description": "Analyze existing customer feedback streams and produce evidence-backed themes, counts, impact estimates, representative examples, and prioritized action candidates.",
+      "source": "tulipfarm/skills",
+      "category": "product"
+    },
+    {
+      "id": "tulipfarm/skills/productivity/calendar-management",
+      "skillId": "calendar-management",
+      "name": "calendar-management",
+      "version": "1.0.0",
+      "description": "Evaluate scheduling requests and produce conflict-checked options, preparation requirements, and confirmation-safe calendar change recommendations.",
+      "source": "tulipfarm/skills",
+      "category": "productivity"
+    },
+    {
+      "id": "tulipfarm/skills/productivity/decision-log",
+      "skillId": "decision-log",
+      "name": "decision-log",
+      "version": "1.0.0",
+      "description": "Extract durable decisions from source material and produce a decision log with options, rationale, owner, effective date, evidence, and review triggers.",
+      "source": "tulipfarm/skills",
+      "category": "productivity"
+    },
+    {
+      "id": "tulipfarm/skills/productivity/document-drafting",
+      "skillId": "document-drafting",
+      "name": "document-drafting",
+      "version": "1.0.0",
+      "description": "Draft an evidence-based internal business document and produce a review-ready version with sourced claims, clear structure, decisions, and unresolved gaps.",
+      "source": "tulipfarm/skills",
+      "category": "productivity"
+    },
+    {
+      "id": "tulipfarm/skills/productivity/expert-knowledge-interview",
+      "skillId": "expert-knowledge-interview",
+      "name": "expert-knowledge-interview",
+      "version": "1.0.0",
+      "description": "Elicit tacit operational know-how from a subject expert and produce a verified knowledge package containing decisions, cues, exceptions, examples, and unresolved questions.",
+      "source": "tulipfarm/skills",
+      "category": "productivity"
+    },
+    {
+      "id": "tulipfarm/skills/productivity/inbox-triage",
+      "skillId": "inbox-triage",
+      "name": "inbox-triage",
+      "version": "1.0.0",
+      "description": "Triage a general work inbox and produce a prioritized queue with classifications, urgency, ownership, duplicate groupings, and safe reply drafts.",
+      "source": "tulipfarm/skills",
+      "category": "productivity"
+    },
+    {
+      "id": "tulipfarm/skills/productivity/knowledge-capture",
+      "skillId": "knowledge-capture",
+      "name": "knowledge-capture",
+      "version": "1.0.0",
+      "description": "Convert raw notes, messages, and files into concise reusable knowledge entries with citations, context, ownership, validity signals, and open questions.",
+      "source": "tulipfarm/skills",
+      "category": "productivity"
+    },
+    {
+      "id": "tulipfarm/skills/productivity/knowledge-gap-analysis",
+      "skillId": "knowledge-gap-analysis",
+      "name": "knowledge-gap-analysis",
+      "version": "1.0.0",
+      "description": "Analyze a knowledge set for unanswered questions, stale content, conflicts, and missing ownership, producing a ranked research and update plan.",
+      "source": "tulipfarm/skills",
+      "category": "productivity"
+    },
+    {
+      "id": "tulipfarm/skills/productivity/web-research",
+      "skillId": "web-research",
+      "name": "web-research",
+      "version": "1.0.0",
+      "description": "Research a question across current public sources and produce an evidence-based answer with claim-level citations, source-quality notes, and explicit uncertainty.",
+      "source": "tulipfarm/skills",
+      "category": "productivity"
     }
   ]
 }
